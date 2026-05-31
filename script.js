@@ -58,17 +58,14 @@ function playBtnMove() {
     gsap.to(playBtn, {
       opacity: 1,
       scale: 1
-
     })
-
   })
 
   document.addEventListener("mousemove", function (dets) {
     gsap.to(playBtn, {
-      left: dets.x - 80,
-      top: dets.y - 70,
+      left: dets.x - 40,
+      top: dets.y - 60,
       zIndex: 3
-
     })
   })
   videocon.addEventListener("mouseleave", function () {

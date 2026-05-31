@@ -21,6 +21,7 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #f7f7f7;
+    position: relative;
 }
 
 a {
@@ -374,6 +375,7 @@ a {
 
 .play-btn {
     width: fit-content;
+    pointer-events: none;
     padding: 2.4rem 1.4rem;
     display: inline-block;
     font-size: 1.8rem;
